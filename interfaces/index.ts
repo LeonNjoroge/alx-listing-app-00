@@ -30,3 +30,7 @@ export interface Offers {
     occupants: string;
 }
 
+export interface Link {
+    label: string;
+    link: string;
+}

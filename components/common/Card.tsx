@@ -69,7 +69,7 @@ const CardComponent = (props: PropertyProps) => {
           <span className="text-sm font-semibold text-gray-800">
             ${props.price}
           </span>
-                        <span className="text-xs text-gray-500"> /night</span>
+                        <span className="text-xs text-gray-500"> /n</span>
                     </div>
                 </div>
             </div>
