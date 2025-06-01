@@ -1,5 +1,24 @@
 // File exists
 import {PropertyProps} from "@/interfaces";
+import image1 from "@/public/assets/list (1).png";
+import image2 from "@/public/assets/list (2).png";
+import image3 from "@/public/assets/list (3).png";
+import image4 from "@/public/assets/list (4).png";
+import image5 from "@/public/assets/list (5).png";
+import image6 from "@/public/assets/list (6).png";
+import image7 from "@/public/assets/list (7).png";
+import image8 from "@/public/assets/list (8).png";
+import image9 from "@/public/assets/list (9).png";
+import image10 from "@/public/assets/list (10).png";
+import image11 from "@/public/assets/list (11).png";
+import image12 from "@/public/assets/list (12).png";
+import image13 from "@/public/assets/list (13).png";
+import image14 from "@/public/assets/list (14).png";
+import image15 from "@/public/assets/list (15).png";
+import image16 from "@/public/assets/list (16).png";
+
+
+
 
 export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
     {
@@ -17,7 +36,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "3",
             occupants: "4-6"
         },
-        image: "https://example.com/image1.jpg",
+        image: image1,
         discount: ""
     },
     {
@@ -35,7 +54,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "2",
             occupants: "5-7"
         },
-        image: "https://example.com/image2.jpg",
+        image: image2,
         discount: "30"
     },
     {
@@ -53,7 +72,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "1",
             occupants: "2-3"
         },
-        image: "https://example.com/image3.jpg",
+        image: image3,
         discount: ""
     },
     {
@@ -71,7 +90,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "2",
             occupants: "2-4"
         },
-        image: "https://example.com/image4.jpg",
+        image: image4,
         discount: "15"
     },
     {
@@ -89,7 +108,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "2",
             occupants: "4-6"
         },
-        image: "https://example.com/image5.jpg",
+        image: image2,
         discount: "20"
     },
     {
@@ -107,7 +126,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "4",
             occupants: "8-10"
         },
-        image: "https://example.com/image6.jpg",
+        image: image3,
         discount: ""
     },
     {
@@ -125,7 +144,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "3",
             occupants: "4-5"
         },
-        image: "https://example.com/image7.jpg",
+        image: image4,
         discount: "10"
     },
     {
@@ -143,7 +162,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "3",
             occupants: "5-6"
         },
-        image: "https://example.com/image8.jpg",
+        image: image5,
         discount: "25"
     },
     {
@@ -161,7 +180,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "1",
             occupants: "2-3"
         },
-        image: "https://example.com/image9.jpg",
+        image: image6,
         discount: ""
     },
     {
@@ -179,7 +198,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "2",
             occupants: "5-7"
         },
-        image: "https://example.com/image10.jpg",
+        image: image7,
         discount: "40"
     },
     {
@@ -197,7 +216,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "4",
             occupants: "6-8"
         },
-        image: "https://example.com/image11.jpg",
+        image: image8,
         discount: "50"
     },
     {
@@ -215,7 +234,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "3",
             occupants: "4-6"
         },
-        image: "https://example.com/image12.jpg",
+        image: image9,
         discount: ""
     },
     {
@@ -233,7 +252,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "2",
             occupants: "2-4"
         },
-        image: "https://example.com/image13.jpg",
+        image: image10,
         discount: "35"
     },
     {
@@ -251,7 +270,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "1",
             occupants: "2"
         },
-        image: "https://example.com/image14.jpg",
+        image: image11,
         discount: ""
     },
     {
@@ -269,7 +288,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "4",
             occupants: "6-8"
         },
-        image: "https://example.com/image15.jpg",
+        image: image12,
         discount: "20"
     },
     {
@@ -287,7 +306,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "1",
             occupants: "2-4"
         },
-        image: "https://example.com/image16.jpg",
+        image: image13,
         discount: "25"
     },
     {
@@ -305,7 +324,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "3",
             occupants: "6-8"
         },
-        image: "https://example.com/image17.jpg",
+        image: image14,
         discount: "30"
     },
     {
@@ -323,7 +342,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "3",
             occupants: "4-5"
         },
-        image: "https://example.com/image18.jpg",
+        image: image15,
         discount: ""
     },
     {
@@ -341,7 +360,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "5",
             occupants: "8-10"
         },
-        image: "https://example.com/image19.jpg",
+        image: image16,
         discount: "60"
     },
     {
@@ -359,7 +378,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
             shower: "3",
             occupants: "4-5"
         },
-        image: "https://example.com/image20.jpg",
+        image: image1,
         discount: ""
     }
 ];

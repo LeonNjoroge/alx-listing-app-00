@@ -1,3 +1,5 @@
+import {StaticImageData} from "next/image";
+
 export interface CardProps{}
 
 export interface ButtonProps{
@@ -12,7 +14,7 @@ export interface PropertyProps {
     category: string[];
     price:    number;
     offers:   Offers;
-    image:    string;
+    image:    StaticImageData;
     discount: string;
 }
 
@@ -27,3 +29,4 @@ export interface Offers {
     shower:    string;
     occupants: string;
 }
+

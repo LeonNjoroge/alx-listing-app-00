@@ -53,7 +53,7 @@ const Header: React.FC = () => {
     ];
 
     return (
-        <header className="bg-[#EBEBEB] px-6 py-3 flex-col items-center justify-between shadow-md gap-6">
+        <header className="bg-white px-6 py-3 flex-col items-center justify-between shadow-md gap-6 mb-1">
             {/* Logo and Search level*/}
             <div className="flex items-center justify-between">
                 {/* Logo */}
@@ -102,7 +102,7 @@ const Header: React.FC = () => {
             </div>
 
             {/* Room types Level */}
-            <div className="flex  justify-between mt-3 pt-5 px-3 border-t border-t-gray-300">
+            <div className="flex  justify-between mt-3 pt-3 px-3 border-t border-t-gray-300">
                 {header_images.map((header_img,idx) => (
                         <a
                             href="#"
