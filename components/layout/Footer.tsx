@@ -112,7 +112,7 @@ const Footer: React.FC = () =>{
                         <a
                             href={val.link}
                             key={idx}
-                            className="hover:text-white transition-colors duration-200 pl-2"
+                            className="hover:text-white transition-colors duration-200 pl-3"
                         >
                             {val.label}
                         </a>
